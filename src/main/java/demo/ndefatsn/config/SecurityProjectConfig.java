@@ -36,8 +36,8 @@ public class SecurityProjectConfig {
     }
 
     private ClientRegistration facebookClientRegistration() {
-        return CommonOAuth2Provider.FACEBOOK.getBuilder("facebook").clientId("")
-                .clientSecret("").build();
+        return CommonOAuth2Provider.FACEBOOK.getBuilder("facebook").clientId("1423018492041306")
+                .clientSecret("420298cf6707c4e428bbb7bdee2ff7f1").build();
     }
 
 }
